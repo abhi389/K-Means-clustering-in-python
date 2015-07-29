@@ -1,7 +1,7 @@
 #Team
-#Abhitej Date (1001113870)
-#Rasika Dhanurkar (1001110582)
-#Sagar Lakhia (1001123182)
+#Abhitej Date 
+#Rasika Dhanurkar
+#Sagar Lakhia 
 #Assignment8
 #Course : 6331 Lab -002 Time: 1:00-3:00
 
@@ -31,7 +31,7 @@ def displayResult():
     data_arr = []
     dataid = []
 
-    url='https://storage.googleapis.com/cloudbucket12/imptry4.csv'
+    url='https://storage.googleapis.com/cloudbucket12/DataFile.csv'
     response=urllib2.urlopen(url)
     reader = csv.reader(response)
     i=0
