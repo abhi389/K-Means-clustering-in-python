@@ -31,7 +31,11 @@ def displayResult():
     data_arr = []
     dataid = []
 
+<<<<<<< HEAD
     url='https://storage.googleapis.com/cloudbucket12/DataFile.csv'
+=======
+    url='File Url'
+>>>>>>> 988464d74cc54cbb00bac3e50e2803ea610ddcb6
     response=urllib2.urlopen(url)
     reader = csv.reader(response)
     i=0
